@@ -1,5 +1,5 @@
 Name:           modsecurity
-Version:        3.0.15
+Version:        3.0.16
 Release:        1%{?dist}
 Summary:        ModSecurity v3 library installed under /opt/modsecurity
 
@@ -193,6 +193,10 @@ test -f %{buildroot}%{modsec_prefix}/share/unicode.mapping || {
 %config(noreplace) %{_sysconfdir}/ld.so.conf.d/modsecurity.conf
 
 %changelog
+* Wed Jul 01 2026 Akiyoshi Kurita <weibu@redadmin.org> - 3.0.16-1
+- Update to ModSecurity v3.0.16
+- Rebuild complete source archive with submodules
+
 * Sun Jun 21 2026 Akiyoshi Kurita <weibu@redadmin.org> - 3.0.15-2
 - Install modsecurity.conf-recommended and unicode.mapping under /opt/modsecurity/share
 - Keep nginx configuration under manual control
