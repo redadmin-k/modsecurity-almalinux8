@@ -1,24 +1,22 @@
-2026-07-01 22:52:41,346 - Mock Version: 6.7
-2026-07-01 22:52:41,349 - Start(bootstrap): chroot init
-2026-07-01 22:52:41,355 - Start(bootstrap): cleaning package manager metadata
-2026-07-01 22:52:41,355 - Finish(bootstrap): cleaning package manager metadata
-2026-07-01 22:52:41,820 - Finish(bootstrap): chroot init
-2026-07-01 22:52:41,821 - Start: chroot init
-2026-07-01 22:52:41,826 - Start: unpacking root cache
-2026-07-01 22:52:46,259 - Finish: unpacking root cache
-2026-07-01 22:52:46,267 - Start: cleaning package manager metadata
-2026-07-01 22:52:46,619 - Finish: cleaning package manager metadata
-2026-07-01 22:52:49,639 - Start: dnf4 update
-2026-07-01 22:54:02,458 - Start: creating root cache
-2026-07-01 22:54:20,232 - Finish: creating root cache
-2026-07-01 22:54:20,232 - Finish: dnf4 update
-2026-07-01 22:54:21,257 - Finish: chroot init
-2026-07-01 22:54:21,258 - Start: build phase for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-01 22:54:21,258 - Start: build setup for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-01 22:55:45,790 - Finish: build setup for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-01 22:55:45,792 - Start: rpmbuild modsecurity-3.0.16-1.el8.src.rpm
-2026-07-01 22:55:45,793 - Start: Outputting list of installed packages
-2026-07-01 22:55:46,069 - Finish: Outputting list of installed packages
-2026-07-01 23:00:45,656 - Finish: rpmbuild modsecurity-3.0.16-1.el8.src.rpm
-2026-07-01 23:00:48,861 - Finish: build phase for modsecurity-3.0.16-1.el8.src.rpm
-2026-07-01 23:00:48,864 - Finish: run
+2026-10-01 14:47:19,836 - Mock Version: 6.8
+2026-10-01 14:47:19,839 - Start(bootstrap): chroot init
+2026-10-01 14:47:19,881 - Start(bootstrap): cleaning package manager metadata
+2026-10-01 14:47:19,882 - Finish(bootstrap): cleaning package manager metadata
+2026-10-01 14:47:20,591 - Finish(bootstrap): chroot init
+2026-10-01 14:47:20,592 - Start: chroot init
+2026-10-01 14:47:20,597 - Start: unpacking root cache
+2026-10-01 14:47:24,136 - Finish: unpacking root cache
+2026-10-01 14:47:24,138 - Start: cleaning package manager metadata
+2026-10-01 14:47:24,142 - Finish: cleaning package manager metadata
+2026-10-01 14:47:26,112 - Start: dnf4 update
+2026-10-01 14:47:35,943 - Finish: dnf4 update
+2026-10-01 14:47:36,309 - Finish: chroot init
+2026-10-01 14:47:36,310 - Start: build phase for modsecurity-3.0.17-1.el8.src.rpm
+2026-10-01 14:47:36,310 - Start: build setup for modsecurity-3.0.17-1.el8.src.rpm
+2026-10-01 14:48:47,243 - Finish: build setup for modsecurity-3.0.17-1.el8.src.rpm
+2026-10-01 14:48:47,245 - Start: rpmbuild modsecurity-3.0.17-1.el8.src.rpm
+2026-10-01 14:48:47,248 - Start: Outputting list of installed packages
+2026-10-01 14:48:47,527 - Finish: Outputting list of installed packages
+2026-10-01 14:53:33,751 - Finish: rpmbuild modsecurity-3.0.17-1.el8.src.rpm
+2026-10-01 14:53:35,895 - Finish: build phase for modsecurity-3.0.17-1.el8.src.rpm
+2026-10-01 14:53:35,897 - Finish: run
